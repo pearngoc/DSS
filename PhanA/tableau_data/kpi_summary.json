@@ -1,0 +1,84 @@
+{
+  "raw_rows": 180519,
+  "raw_cols": 53,
+  "clean_rows": 180519,
+  "dup_removed": 0,
+  "date_min": "2015-01-01",
+  "date_max": "2018-01-31",
+  "n_orders": 65752,
+  "n_customers": 20652,
+  "n_products": 118,
+  "tables": {
+    "fact_sales": [
+      180519,
+      20
+    ],
+    "fact_order_delivery": [
+      65752,
+      16
+    ],
+    "dim_customer": [
+      20652,
+      8
+    ],
+    "dim_product": [
+      118,
+      7
+    ],
+    "dim_date": [
+      1133,
+      10
+    ],
+    "dim_location": [
+      3772,
+      6
+    ],
+    "dim_delivery": [
+      64,
+      5
+    ]
+  },
+  "total_sales": 36784735.01,
+  "net_sales": 33054402.38,
+  "total_profit": 3966902.97,
+  "profit_margin_pct": 10.78,
+  "late_delivery_rate_pct": 54.83,
+  "avg_shipping_delay": 0.57,
+  "loss_order_lines": 33784,
+  "loss_order_line_pct": 18.71,
+  "aov": 502.71,
+  "total_quantity": 384079,
+  "avg_discount_rate_pct": 10.17,
+  "late_delivery_rate_order_pct": 54.82,
+  "on_time_rate_order_pct": 45.18,
+  "avg_shipping_delay_order": 0.57,
+  "avg_items_per_order": 2.75,
+  "sales_by_department": {
+    "Fan Shop": 17113871.0,
+    "Apparel": 7976255.0,
+    "Golf": 4609028.0,
+    "Footwear": 4006499.0,
+    "Outdoors": 1253351.0,
+    "Technology": 1039599.0
+  },
+  "sales_by_market": {
+    "Europe": 10872397.0,
+    "LATAM": 10277613.0,
+    "Pacific Asia": 8273744.0,
+    "USCA": 5066529.0,
+    "Africa": 2294453.0
+  },
+  "late_rate_by_shipmode_pct": {
+    "First Class": 95.3,
+    "Second Class": 76.6,
+    "Same Day": 45.7,
+    "Standard Class": 38.1
+  },
+  "profit_by_market": {
+    "Europe": 1169443.0,
+    "LATAM": 1123322.0,
+    "Pacific Asia": 857753.0,
+    "USCA": 564314.0,
+    "Africa": 252071.0
+  }
+}
